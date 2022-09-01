@@ -1,2 +1,2 @@
-# pi
- Objetivos do pi grupo 10
+# Olá, Professor
+ Nesse repositório você ira ver os objetivos do pi grupo 10
