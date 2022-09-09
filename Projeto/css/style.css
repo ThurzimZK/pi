@@ -7,22 +7,13 @@
 }
 
 header{
-    background-image: url(imagens/cabeca.png);
+    background-image: url(../imagens/cabeca.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 150px;
 }
-nav>a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    background-color: aqua;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-nav>a:hover{
-    text-decoration: underline;
+nav{
+    padding-top: 10px;
 }
 main{
     padding-left: 30px;

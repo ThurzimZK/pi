@@ -7,40 +7,31 @@
 }
 
 header{
-    background-image: url(imagens/cabeca.png);
+    background-image: url(../imagens/cabeca.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 150px;
 }
-nav>a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    background-color: aqua;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-nav>a:hover{
-    text-decoration: underline;
+nav{
+    padding-top: 10px;
 }
 div{
-    background-image: url(imagens/energia.png);
+    background-image: url(../imagens/musculo.png);
     width: 450px;
     height: 300px;
     background-size: 100% 100%;
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 40%;
 }
 div.muscular{
-    background-image: url(imagens/energia2.png);
+    background-image: url(../imagens/massa.png);
     width: 450px;
     height: 300px;
     background-size: 100% 100%;
     position: absolute;
-    left: 15%;
-    top: 75%;
+    left: 10%;
+    top: 90%;
 }
 
 section{
@@ -58,18 +49,18 @@ section>h1{
 }
 section.importancia{
     position: absolute;
-    top: 125%;
+    top: 150%;
 }
 div.proteina{
-    background-image: url(imagens/energia3.png);
-    top: 125%;
+    background-image: url(../imagens/proteina.png);
+    top: 155%;
 }
 section.massa{
     position: absolute;
     left: 50%;
 }
 section.massa h2{
-    padding-top: 100px;
+    padding-top: 30px;
 
 }
 main{
@@ -101,10 +92,11 @@ footer{
     color: white;
     text-align: center;
     margin: auto;
+    width: 203.3vh;
     padding: 7px;
     font-weight: bold;
     position: absolute;
-    top: 170%;
+    top: 215%;
     left: 50%;
     transform: translate(-50%);
 }
