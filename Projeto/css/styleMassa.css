@@ -64,8 +64,16 @@ section.massa h2{
 
 }
 main{
-    padding-left: 30px;
-    width: 1200px;
+    min-width: 300px;
+    max-width: 1200px;
+    height: 1250px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: justify;
     margin: auto;
 }
@@ -82,11 +90,7 @@ main > p{
 main> h2{
     padding-top: 25px;
 }
-img.sai{
-    width: 800px;
-    height: 200px;
-    padding-top: 20px;
-}
+
 footer{
     background-color: black;
     color: white;
@@ -96,7 +100,7 @@ footer{
     padding: 7px;
     font-weight: bold;
     position: absolute;
-    top: 215%;
+    top: 222%;
     left: 50%;
     transform: translate(-50%);
 }
