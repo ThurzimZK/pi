@@ -15,59 +15,10 @@ header{
 nav{
     padding-top: 10px;
 }
-div{
-    background-image: url(../imagens/energia.png);
-    width: 450px;
-    height: 300px;
-    background-size: 100% 100%;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-}
-div.muscular{
-    background-image: url(../imagens/energia2.png);
-    width: 450px;
-    height: 300px;
-    background-size: 100% 100%;
-    position: absolute;
-    left: 10%;
-    top: 110%;
-}
 
-section{
-    width: 500px;
-    padding-top: 20px;
-}
-section>p{
-    padding-top: 10px;
-    font-size: 1.1em;
-    text-indent: 30px;
-}
-section>h1{
-    padding-top: 30px;
-    text-align: left;
-}
-section.importancia{
-    position: absolute;
-    top: 183%;
-}
-div.proteina{
-    background-image: url(../imagens/energia3.png);
-    top: 185%;
-}
-section.massa{
-    position: absolute;
-    left: 50%;
-    top: 78%;
-}
-section.massa h2{
-    padding-top: 100px;
-
-}
 main{
     min-width: 300px;
     max-width: 1200px;
-    height: 1400px;
     text-align: justify;
     margin: auto;
     margin-bottom: 30px;
@@ -82,6 +33,13 @@ main>h1{
     padding-top: 30px;
     text-align: left;
     
+}
+.img1{
+    text-align: center;
+}
+
+.img3{
+    text-align: center;
 }
 main > p{
     padding-top: 10px;
@@ -100,8 +58,4 @@ footer{
     width: 203.3vh;
     padding: 6px;
     font-weight: bold;
-    position: absolute;
-    top: 245%;
-    left: 50%;
-    transform: translate(-50%);
 }

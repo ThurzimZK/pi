@@ -15,8 +15,11 @@ header{
 nav{
     padding-top: 10px;
 }
-.img3{
-   
+.img{
+    padding-left: 70px;
+}
+.img1{
+    padding-left: 40px;
 }
 main{
     min-width: 300px;
