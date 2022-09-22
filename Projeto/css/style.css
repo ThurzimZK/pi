@@ -7,10 +7,33 @@
 }
 
 header{
-    background-image: url(../imagens/cabeca.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 150px;
+    background-color: rgb(55, 112, 235);
+    min-width: 400px;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+header div{
+    display: inline;
+    
+}
+img#first{
+    height: 200px;
+}
+header h1{
+    display: inline;
+    text-align: center;
+    color: white;
+    font: bolder;
+    font-family: 'Anton', sans-serif;
+    padding-left: 20px;
+}
+body{
+    background-color: lightgray;
+}
+main{
+    background-color: white;
 }
 nav{
     padding-top: 10px;
