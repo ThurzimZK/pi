@@ -38,6 +38,40 @@ main{
 nav{
     padding-top: 10px;
 }
+span#burguer{
+    background-color:rgb(36, 113, 255);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none;
+}
+menu > ul{
+    list-style-type: none;
+    
+}
+menu> ul > li > a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(27, 106, 252);
+    color: white;
+    font-weight: bold;
+    border-top: 2px solid white;
+    margin: auto;
+    
+}
+menu > ul > li > a:hover{
+    background-color: white;
+}
+
 
 main{
     min-width: 300px;
